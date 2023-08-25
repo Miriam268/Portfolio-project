@@ -20,6 +20,10 @@ h2{
     font-size: 64px;
 }
 
+h4{
+    font-size: 48px;
+
+}
 p{
     font-weight: normal;
     font-size: 16px;
@@ -130,6 +134,43 @@ nav a:hover, nav li .active {
     transition: all 100ms ease-in-out;
 }
 
+  footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin: 60px 0;
+}
+
+ footer a:hover {
+    color:#6c63ff;
+}
+
+footer .social-links a{
+    margin: 0 20px;
+    color:#6c63ff;
+    background:#f9f7fe;
+    padding: 10px 14px;
+    font-size: 18px;
+    transition: all 150ms ease ease-in-out;
+    border-radius: 50%;
+}
+
+footer .social-links a:hover{
+    color: white;
+    background: #6c63ff;
+}
+
+footer .contact-box {
+    background: #f9f7fe;
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box p{
+    margin: 0;
+}
+
 @media (max-width: 960px) {
     h1{
         font-size: 44px;
@@ -137,6 +178,10 @@ nav a:hover, nav li .active {
     }
     h2{
         font-size: 44px;
+    }
+
+    h4{
+        font-size: 24px;
     }
     .hero{
         padding: 80px 20px;
@@ -150,4 +195,7 @@ nav a:hover, nav li .active {
         text-align: center;
         padding: 0;
     }
-}
+
+
+    }
+
